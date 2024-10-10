@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("criando novas coisa"),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.blue,
       ),
       body: Column(
         children: [
@@ -37,7 +37,7 @@ class Home extends StatelessWidget {
               ),
             ),
             decoration: BoxDecoration(
-              color: AppColors.blue,
+              color: AppColors.red,
               borderRadius: BorderRadius.circular(30),
             ),
           ),
@@ -50,7 +50,7 @@ class Home extends StatelessWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-          backgroundColor: Colors.purple,
+          backgroundColor: Colors.blueGrey,
           child: const Icon(
             Icons.add,
             color: Colors.white,
