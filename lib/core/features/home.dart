@@ -9,8 +9,8 @@ class Home extends StatelessWidget {
     final Size size = MediaQuery.sizeOf(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text("criando novas coisa"),
-        backgroundColor: Colors.blue,
+        title: const Text("Fazendo Testes no Flutter"),
+        backgroundColor: Colors.yellow,
       ),
       body: Column(
         children: [
@@ -24,12 +24,12 @@ class Home extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "novas vindas ",
+                    "wanderson ",
                     style: TextStyle(color: Colors.white),
                   ),
                   Center(
                     child: Text(
-                      "novas coisas !!!",
+                      "disse isso !!!",
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
@@ -37,7 +37,7 @@ class Home extends StatelessWidget {
               ),
             ),
             decoration: BoxDecoration(
-              color: AppColors.red,
+              color: AppColors.blue,
               borderRadius: BorderRadius.circular(30),
             ),
           ),
